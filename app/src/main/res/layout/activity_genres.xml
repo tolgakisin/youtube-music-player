@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".GenresActivity">
+
+    <EditText
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchButton"
+        android:layout_alignParentTop="true"
+        app:queryHint="search"
+        />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/iconSearch"
+        android:layout_toRightOf="@id/searchButton"
+        android:src="@drawable/ic_baseline_search_24px"
+        />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableForButtons"
+        android:layout_below="@id/searchButton"
+         />
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/relativeLayout1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--&gt;-->
+        <!--<com.google.android.material.button.MaterialButton-->
+            <!--android:id="@+id/btnGenre1"-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="120dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:text="Button" />-->
+        <!--<com.google.android.material.button.MaterialButton-->
+            <!--android:id="@+id/btnGenre2"-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="120dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_toRightOf="@id/btnGenre1"-->
+            <!--android:text="Button" />-->
+        <!--<com.google.android.material.button.MaterialButton-->
+            <!--android:id="@+id/btnGenre3"-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="120dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_toRightOf="@id/btnGenre2"-->
+            <!--android:text="Button" />-->
+    <!--</RelativeLayout>-->
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/relativeLayout2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/relativeLayout1"-->
+        <!--&gt;-->
+        <!--<com.google.android.material.button.MaterialButton-->
+            <!--android:id="@+id/btnGenre4"-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="120dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:text="Button" />-->
+        <!--<com.google.android.material.button.MaterialButton-->
+            <!--android:id="@+id/btnGenre5"-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="120dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_toRightOf="@id/btnGenre4"-->
+            <!--android:text="Button" />-->
+        <!--<com.google.android.material.button.MaterialButton-->
+            <!--android:id="@+id/btnGenre6"-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="120dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_toRightOf="@id/btnGenre5"-->
+            <!--android:text="Button" />-->
+    <!--</RelativeLayout>-->
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/relativeLayout3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/relativeLayout2"-->
+        <!--&gt;-->
+        <!--<com.google.android.material.button.MaterialButton-->
+            <!--android:id="@+id/btnGenre7"-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="120dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:text="Button" />-->
+        <!--<com.google.android.material.button.MaterialButton-->
+            <!--android:id="@+id/btnGenre8"-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="120dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_toRightOf="@id/btnGenre7"-->
+            <!--android:text="Button" />-->
+        <!--<com.google.android.material.button.MaterialButton-->
+            <!--android:id="@+id/btnGenre9"-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="120dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_toRightOf="@id/btnGenre8"-->
+            <!--android:text="Button" />-->
+    <!--</RelativeLayout>-->
+
+
+</RelativeLayout>

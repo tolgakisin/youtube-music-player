@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "825494382467",
+    "firebase_url": "https://muzikdinleyicisi-8c28c.firebaseio.com",
+    "project_id": "muzikdinleyicisi-8c28c",
+    "storage_bucket": "muzikdinleyicisi-8c28c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825494382467:android:25f587b64d9549b4",
+        "android_client_info": {
+          "package_name": "com.example.youtubemuzikdinleyicisi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825494382467-muhcutvlktk3o60a6fnpn911gp30q8rn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.youtubemuzikdinleyicisi",
+            "certificate_hash": "e130c13040c98fff847268580f7b3326f00a22a6"
+          }
+        },
+        {
+          "client_id": "825494382467-9j4d1ul26a4pb9ev157ak1b8vgfuu2vo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFtvOw9lrW4idslO0f_TNKfepE3m58o5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825494382467-9j4d1ul26a4pb9ev157ak1b8vgfuu2vo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
